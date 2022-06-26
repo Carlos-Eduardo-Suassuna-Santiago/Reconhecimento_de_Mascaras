@@ -1,4 +1,0 @@
-1. Extrair os arquivos zipados
-2. Mover a pasta Datasset para dentro da pasta yolov5
-3. Ascessar a pasta yolov5 por meio do terminal 
-4. rodar os comandos do arquivo comandos.txt no terminal
