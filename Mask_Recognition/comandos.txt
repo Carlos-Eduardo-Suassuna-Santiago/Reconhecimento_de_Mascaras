@@ -1,0 +1,13 @@
+TREINANDO A REDE NEURAL
+python train.py --img 416 --batch 16 --epochs 100 --data data/coco128.yaml --weights Pesos/yolov5s6.pt
+
+DIRETORIOS(no fim do treinamento o diretorio salvo é mostrado)
+(diretorio com os pesos treinados)
+ runs/train/exp/weights/best.pt
+(diretorio com as imagens)
+Dataset/images/train
+
+python detect.py --weights runs/train/exp/weights/best.pt --conf 0.70 --source Dataset/images/val --save-crop
+
+INICIAR O PROGRAMA
+python detect.py --weights runs/train/exp/weights/best.pt --conf 0.70 --source 0 --save-crop --view-img
